@@ -2,22 +2,19 @@
 print("Welcome to the best Number Guessing Game")
 
 #asking user for difficulty and setting it 
+min = 1
 while True:
     difficulty = input("Choose difficulty of guess (Easy/Medium/Hard/Impossible/Custom):")
     if difficulty == "easy" or difficulty == "Easy" or difficulty == "EASY":
-        min = 1
         max = 10
         break
     elif difficulty == "medium" or difficulty == "Medium" or difficulty == "MEDIUM":
-        min = 1 
         max = 25
         break
     elif difficulty == "hard" or difficulty == "Hard" or difficulty == "HARD":
-        min = 1
         max = 50
         break
     elif difficulty == "impossible" or difficulty == "Impossible" or difficulty == "IMPOSSIBLE":
-        min = 1
         max = 200
         break
     elif difficulty == "custom" or difficulty == "Custom" or difficulty == "CUSTOM":
